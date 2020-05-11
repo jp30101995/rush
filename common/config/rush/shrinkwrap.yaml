@@ -1,0 +1,15 @@
+dependencies:
+  '@rush-temp/api': 'file:projects/api.tgz'
+packages:
+  'file:projects/api.tgz':
+    dev: false
+    name: '@rush-temp/api'
+    resolution:
+      integrity: sha512-fSTm7+O8NexxrCbBrHnvpWfvc35YdEYZDE6D/LNkH894ELivwf8jRwYKZ+AZlM+RT1k/1auPZubwCs9qmCYNHA==
+      tarball: 'file:projects/api.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/api': 'file:./projects/api.tgz'
